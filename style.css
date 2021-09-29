@@ -1,0 +1,122 @@
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #FCBE51;
+    background-image: url(Manatees\ cartoon\ background.png);
+    background-size: 60%;
+    margin-bottom: 150px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    margin-top: 1em;
+    font-weight: 900;
+    padding: 12px;
+    max-width: 550px;
+    background-color: #FFFFFF;
+    color: #FCBE51;
+    border-radius: 25px;
+    border: 5px solid #E1E0DE;
+
+}
+
+h1 hr {
+    border-top: 8px solid black;
+}
+h1 b {
+    color: #EF164B;
+    font-weight: 900;
+}
+
+header h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 475px;
+    font-size: 40px;
+    font-weight:900;
+    background-color:#FCBE51;
+    opacity: 80%;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+    color: #FCBE51;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 25px;
+    border: 5px solid #E1E0DE;
+    cursor: pointer;
+}
+
+button:link {
+    color: #FCBE51;
+}
+
+button:visited {
+    color: #FCBE51;
+}
+
+button:hover {
+    color: #EF164B;
+}
+
+button:active {
+    color: #E1E0DE;
+}
+
+body main p {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+    background-color: white;
+    opacity: 80%;
+    color: black;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+main iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 475px;
+    white-space: pre-wrap;
+}
+
+#backstory {
+    width: 475px;
+}
+
+#tweet {
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+    border-color: white;
+    background-color: #FFFFFFBB;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 25px;
+}
