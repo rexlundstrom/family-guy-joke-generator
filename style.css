@@ -96,18 +96,22 @@ body main p {
 main iframe {
     display: block;
     margin: 0 auto;
+    width: 95%;
+    max-width: 700px;
 }
 
 .card {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 475px;
+    width: 50%;
+    min-width: 300px;
     white-space: pre-wrap;
 }
 
 #backstory {
-    width: 475px;
+    width: 50%;
+    min-width: 300px;
 }
 
 #tweet {
@@ -119,4 +123,45 @@ main iframe {
     border-width: 5px;
     border-style: solid;
     border-radius: 25px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  * {
+      
+  }
+  header {
+    width: 270px;
+  }
+  body {
+    width: 270px;
+  }
+  .gallery-item .thumbnail {
+    width: 95%;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: .25em;
+    font-weight: 700;
+    padding: 4px;
+    max-width: 550px;
+    background-color: #FFFFFF;
+    color: #FCBE51;
+    border-radius: 15px;
+    border: 2px solid #E1E0DE;
+  }
+
+  header h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 475px;
+    font-size: 40px;
+    font-weight:900;
+    background-color:#FCBE51;
+    opacity: 80%;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+  }
 }
